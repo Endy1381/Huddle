@@ -1,8 +1,14 @@
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Home() {
   return (
+    
       <div>
+         <Head>
+        <title>Huddle</title>
+        <meta name="description" content="This is my awesome website." />
+      </Head>
         {/* ANCHOR the main container for the website */}
         <div id="main" className="">
           {/* the header */}
