@@ -117,7 +117,7 @@ export default function Home() {
 
             </div>
           </footer>
-          <p>made by natnael yohannes(Endy)</p>
+          <p className="bg-teal-950 flex justify-center lg:justify-end">made by natnael yohannes(Endy)</p>
         </div>
       </div>
   );
